@@ -18,9 +18,9 @@ public class Unit : MonoBehaviour
         }
 
          
-        if(Input.GetKeyDown(KeyCode.T))
+        if(Input.GetMouseButtonDown(0)) // 0 is left mouse button
         {
-            Move(new Vector3(4, 0, 4));
+            Move(MouseWorld.GetPosition());
         }
     }
 
