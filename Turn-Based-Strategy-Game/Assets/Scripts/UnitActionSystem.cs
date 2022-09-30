@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class UnitActionSystem : MonoBehaviour
 {
-    [SerializeField]
-    private Unit selectedUnit;
+    [SerializeField] private Unit selectedUnit;
 
     [SerializeField] private LayerMask unitLayerMask;
 
@@ -35,6 +34,5 @@ public class UnitActionSystem : MonoBehaviour
             }
         }
         return false;
-
     }
 }
