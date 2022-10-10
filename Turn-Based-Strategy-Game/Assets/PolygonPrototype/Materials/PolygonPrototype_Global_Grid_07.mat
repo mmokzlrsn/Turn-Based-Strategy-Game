@@ -52,13 +52,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - OverlayAmount: 0.5
-    - _Falloff: 50
+    - OverlayAmount: 0.25
+    - _Falloff: 100
     - _GridScale: 0.5
     - _OverlayAmount: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.7686275, g: 0.81568635, b: 0.85098046, a: 0}
+    - _BaseColor: {r: 0.5246529, g: 0.7457959, b: 0.8490566, a: 1}
   m_BuildTextureStacks: []
